@@ -1,2 +1,3 @@
 SELECT *
-FROM countries;
+FROM economies
+WHERE YEAR = 2020;
