@@ -1,3 +1,4 @@
 SELECT *
 FROM economies
-WHERE YEAR = 2020;
+WHERE YEAR = 2019
+	AND taxes IS NOT NULL;
